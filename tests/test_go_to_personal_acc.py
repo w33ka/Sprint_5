@@ -12,4 +12,3 @@ class TestStellarBurgersGoToPersonalProfile:
         WebDriverWait(driver, 3).until(EC.visibility_of_element_located(ProfilePageLocators.PROFILE_BUTTON))
         driver.find_element(*ProfilePageLocators.PROFILE_BUTTON).is_displayed()
 
-
